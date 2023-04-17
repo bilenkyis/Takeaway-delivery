@@ -125,6 +125,11 @@ footer {
     grid-area: footer;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 header .quick-order {
     min-height: 50px;
     display: flex;
@@ -144,6 +149,10 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header .nav-wrapper {
+    background-color: rgba(173, 216, 230, .7);
 }
 
 header nav .nav-menu {
@@ -509,8 +518,8 @@ header nav .nav-menu a:hover {
     opacity: 0.8;
 }
 
-.good-food :last-child {
-    margin-left: 22px;
+.good-food figure:last-child {
+    margin-left: 42px;
     z-index: -1;
 }
 
